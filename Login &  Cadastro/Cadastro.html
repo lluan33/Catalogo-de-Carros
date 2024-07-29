@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="website icon" type="png" href="https://cdn.vectorstock.com/i/1000v/67/52/automotive-turbo-charger-vector-38716752.jpg">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Register</h1>
+             <div id="mgsError"></div>
+             <div id="mgsSucess"></div>
+
+           <div class="label-float">
+            <input type="text" id="name" placeholder="" required>
+            <label id="LabelName" for="text">Name</label>
+            <i class='bx bxs-home'></i>
+           </div>
+
+           <div class="label-float">
+            <input type="text" id="user" placeholder="" required>
+            <label id="LabelUser" for="usuário">User</label>
+            <i class='bx bxs-user'></i>
+           </div>
+        
+           <div class="label-float">
+            <input type="password" id="password" placeholder="">
+            <label id="LabelPassword" for="password">password</label>
+                <i id="verSenha" class='bx bx-low-vision'></i>
+           </div>
+
+           <div class="label-float">
+            <input type="password" id="confirmpassword" placeholder="">
+            <label id="Labelconfirmpassword" for="password"> Confirm Password</label>
+              <i id="verconfirmesenha" class="bx bx-low-vision"></i>
+           </div>
+
+           <div class="button-login">
+            <button onclick="cadastrar()">Register</button>
+           </div>
+        </div>
+    </div>
+<script src="Content.js"></script>
+</body>
+</html>

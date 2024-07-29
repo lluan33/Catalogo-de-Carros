@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="website icon" type="png" href="https://cdn.vectorstock.com/i/1000v/67/52/automotive-turbo-charger-vector-38716752.jpg">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Login</h1>
+            <div id="mgsError"></div>
+            <div id="mgsSucess"></div>
+
+           <div class="label-float">
+            <input type="text" id="user" placeholder="" required>
+            <label id="userLabel" for="usuário">User</label>
+            <i class='bx bx-user'></i>
+           </div>
+
+           <div class="label-float">
+            <input type="password" id="password" placeholder="">
+            <label id="senhaLabel" for="password">password</label>
+                <i class='bx bx-low-vision'></i>
+           </div>
+           <div class="button-login">
+            <button onclick='entrar()'>Login</button>
+           </div>
+           <div>
+            <div>
+                <hr>
+            </div>
+            <a href="#">
+                Forgot password?</a>
+            <p>Don't have an account?<a href="Cadastro.html">
+        Register</a></p>
+           </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

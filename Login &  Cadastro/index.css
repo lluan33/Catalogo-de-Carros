@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;;
+}
+body{
+    background:url("Slogan3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+.card{
+    background: rgba(255,255,255,0.2);
+    padding: 70px;
+    border-radius: 2%;
+    box-shadow: 3px 3px 1px 0px #00000070;    
+    width: 48%;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color:darkblue;
+
+}
+ .label-float input{
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid black;
+    background: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all 0.3s ease-out;
+    border-radius: 0;
+}
+.label-float{
+    position: relative;
+    padding-top: 10%;
+    margin-bottom: 5%;
+    margin-bottom: 5%;  
+}
+.label-float input:focus{
+    border-bottom: 2px solid rgba(255,255,255,0.2);
+}
+.label-float label{
+    color:aliceblue;
+    pointer-events: none;
+    position: absolute;
+    top:0;
+    left: 2px;
+
+}
+.label-float input:focus + label
+.label-float input:valid + label{
+    font-size: 13px;
+    margin-top: 0;
+    color:  rgba(255,255,255,0.2);
+}
+button{
+    background-color: transparent;
+    color:whitesmoke;
+    padding:9px;
+    width: 50%;
+    font-weight: bold;
+    font-size: 12pt;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+button:hover{
+    background:rgb(88, 83, 83) ;
+    color:darkblue;
+}
+.button-login{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    margin-bottom: 10%;
+    margin-bottom: 5%;
+    width: 100%;  
+}
+a{
+    color:whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3 ease-out;
+}
+a:hover{
+    color:darkcyan;
+}
+.bx-low-vision{
+    color:whitesmoke;
+    position: absolute;
+    top: 16px;
+    right: 10px;
+    cursor: pointer;
+}
+.bxs-home, .bxs-user{
+    color:whitesmoke;
+    position: absolute;
+    top: 16px;
+    right: 10px;
+    cursor: pointer;
+}
+#mgsError{
+    text-align: center;
+    color: #ff0000;
+    background-color: #ffbbbb;
+    padding: 20px;
+    border-radius: 4px;
+    display: none;
+}
+#mgsSucess{
+    text-align: center;
+    color: #00bb00;
+    background-color: #bbffbe;
+    padding: 20px;
+    border-radius: 4px;
+    display: none;
+
+}
